@@ -1,0 +1,29 @@
+<div >
+    <div>
+        <!-- <form class="form-group" [formGroup]="buyForm" (ngSubmit)="buy()">
+            <input type="text" name="flightNumber" placeholder="Flight Number" formControlName="flightNumber">
+            <button  type="submit">Submit</button>
+        </form> -->
+        <form class="form-group" (ngSubmit)="buy(flightNumberInput.value)">
+            <label>Purchase a ticket</label>
+            <br />
+            <input #flightNumberInput type="text" name="flightNumber" placeholder="Flight Number">
+            <button type="submit" >Buy</button>
+        </form>
+    </div>
+    <br />
+    <table>
+        <tr>
+            <th>Flight Number</th>
+            <th>Source</th>
+            <th>Destination</th>
+        </tr>
+        @for(flight of data; track flight){
+        <tr>
+            <td>{{flight.flightNumber}}</td>
+            <td>{{flight.source}}</td>
+            <td>{{flight.destination}}</td>
+        </tr>
+    }
+    </table>
+</div>

@@ -1,0 +1,26 @@
+
+<!-- <div > -->
+    <table>
+        <thead>
+        <tr>
+            <th>Flight Number</th>
+            <th>Source</th>
+            <th>Destination</th>
+        </tr>
+        </thead>
+        <tbody>
+        <!-- @for(flight of myflight; track flight){
+        <tr>
+            <td>{{flight.flightReservationNumber}}</td>
+            <td>{{flight.source}}</td>
+            <td>{{flight.destination}}</td>
+        </tr>
+        } -->
+        <tr *ngFor="let flight of myflight">
+            <td>{{flight.flightReservationNumber}}</td>
+            <td>{{flight.source}}</td>
+            <td>{{flight.destination}}</td>
+        </tr>
+</tbody>
+    </table>
+<!-- </div> -->

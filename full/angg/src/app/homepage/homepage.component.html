@@ -1,0 +1,13 @@
+
+<header>
+    <div>
+        <h1>Airline System</h1>
+        <a [routerLink]="['admin']" class="btn btn-primary logout">Logout</a>
+    </div>
+</header>
+<div class="link-container">
+    <a [routerLink]="['flight']" class="btn btn-primary">flight</a>
+    <br />
+    <a [routerLink]="['myflights']" class="btn btn-primary">myflights</a>
+</div>
+<router-outlet></router-outlet>
