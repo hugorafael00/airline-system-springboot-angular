@@ -1,4 +1,4 @@
-Projeto em andamento para o desenvolvimento de um sistema de passagens aéreas, com SpringBoot no Backend como API, e Angular no Frontend, além de MongoDB para a persistência de dados.
+Projeto em andamento para o desenvolvimento de um sistema de passagens aéreas, com SpringBoot no Backend como API, e Angular no Frontend, além de MongoDB para a persistência de dados e JWT para autenticação de usuários.
 
 
 - ### Preview
