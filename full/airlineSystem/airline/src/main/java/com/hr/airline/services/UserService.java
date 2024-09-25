@@ -73,7 +73,7 @@ public class UserService {
     }
 
     public Boolean createUser(CreateUserDto createUserDto) {
-        if (userRepository.findByEmail(createUserDto.email()) != null) {
+        if (userRepository.findByEmail(createUserDto.email()).isPresent()) {
             return false;
         }
 
