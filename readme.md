@@ -1,4 +1,34 @@
-Projeto em andamento para o desenvolvimento de um sistema de passagens aéreas, com SpringBoot no Backend como API, e Angular no Frontend, além de MongoDB para a persistência de dados e JWT para autenticação de usuários.
+# Airline System (Spring Boot + Angular)
+
+Sistema de venda e reserva de passagens aéreas em desenvolvimento.  
+Backend com **Spring Boot** como API, **MongoDB** para persistência e **JWT** para autenticação.  
+Frontend construído em **Angular**, com navegação por telas como login, lista de voos disponíveis e bilhetes reservados.
+
+---
+
+##  Funcionalidades (em desenvolvimento)
+
+- Autenticação de usuários com JWT.
+- Cadastro, login e gerenciamento de sessão.
+- Consulta de voos disponíveis.
+- Visualização de passagens já reservadas.
+- Integração entre front-end (Angular) e backend (Spring Boot).
+- Persistência de dados via MongoDB.
+
+---
+
+##  Tecnologias Utilizadas
+
+- **Backend**:  
+  - Spring Boot  
+  - MongoDB  
+  - JWT (JSON Web Token)
+
+- **Frontend**:  
+  - Angular  
+  - HTML, CSS, TypeScript  
+
+---
 
 
 - ### Preview
